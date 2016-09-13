@@ -23,3 +23,14 @@ s=Number(s);
 	console.log(s);
 		s=Boolean(s);
 	console.log(s);
+///////////////////////////////
+var user = {
+  name: 'Дубов',
+
+  sayHi: function() {
+    alert( 'Привет!' );
+  }
+
+};
+console.log(typeof user.sayHi());
+
