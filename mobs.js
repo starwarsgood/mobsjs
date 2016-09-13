@@ -1,4 +1,4 @@
-var m = 4,
+var m = 4;
     o = 3;
 	b = 2;
 	s = 1;
@@ -7,3 +7,12 @@ var m = 4,
    console.log(b);
     console.log(s);
 	
+////////////////////////////////
+if (null == undefined)
+{
+	console.log('true');
+}
+else
+{
+	console.log('false');
+}
