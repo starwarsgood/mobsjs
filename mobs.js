@@ -39,14 +39,15 @@ var filters = {dvals:[{'brand':'1', 'count':'1'},
                   {'brand':'3', 'count':'3'}]}
 
 console.log(typeof filters);
-//////////////////////////////
+///////////////////////////////////
 
-var z,s;
-z=0;
-if (z>0) {
+var a,s;
+a=2;
+if (a>0) {
 s=1;
 }
-else if (z<0) {
+else 
+	if (a<0) {
 s=2;
  }
 else {
