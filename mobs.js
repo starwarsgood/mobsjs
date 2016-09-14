@@ -33,4 +33,23 @@ var user = {
 
 };
 console.log(typeof user.sayHi());
+///////////////////////////////
+var filters = {dvals:[{'brand':'1', 'count':'1'},
+                  {'brand':'2', 'count':'2'}, 
+                  {'brand':'3', 'count':'3'}]}
 
+console.log(typeof filters);
+//////////////////////////////
+
+var a,s;
+a=0;
+if (a>0) {
+s=1;
+}
+else if (a<0) {
+	s=2;
+}
+else {
+	s=3;
+}
+console.log(s);
