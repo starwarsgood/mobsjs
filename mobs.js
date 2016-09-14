@@ -41,15 +41,15 @@ var filters = {dvals:[{'brand':'1', 'count':'1'},
 console.log(typeof filters);
 //////////////////////////////
 
-var a,s;
-a=0;
-if (a>0) {
+var z,s;
+z=0;
+if (z>0) {
 s=1;
 }
-else if (a<0) {
-	s=2;
-}
+else if (z<0) {
+s=2;
+ }
 else {
-	s=3;
-}
+s=3;
+  }
 console.log(s);
