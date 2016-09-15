@@ -54,3 +54,13 @@ else {
 s=3;
   }
 console.log(s);
+///////////////////////////////////////
+good=10; 
+for(var i=0; i<10;i++;){
+if (good==70){
+good++
+continue;	
+ }
+ good=good+78;
+}
+alert(good);
