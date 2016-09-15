@@ -17,3 +17,7 @@ var o = new Object()
 }
 console.log(o);
 /////////////////
+var object = new Date();
+console.log(object);
+
+
